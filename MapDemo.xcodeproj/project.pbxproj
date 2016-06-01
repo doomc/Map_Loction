@@ -15,6 +15,29 @@
 		5050BADB1CFD656800ED7B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5050BAD91CFD656800ED7B46 /* LaunchScreen.storyboard */; };
 		5050BAE61CFD656800ED7B46 /* MapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5050BAE51CFD656800ED7B46 /* MapDemoTests.m */; };
 		5050BAF11CFD656800ED7B46 /* MapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5050BAF01CFD656800ED7B46 /* MapDemoUITests.m */; };
+		5050BAFF1CFD65CA00ED7B46 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5050BAFE1CFD65CA00ED7B46 /* MapKit.framework */; };
+		5050BB011CFD65D900ED7B46 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5050BB001CFD65D900ED7B46 /* CoreLocation.framework */; };
+		5050BB041CFD686A00ED7B46 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5050BB031CFD686A00ED7B46 /* BaseNavViewController.m */; };
+		5050BB081CFD71C800ED7B46 /* MapDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5050BB061CFD71C800ED7B46 /* MapDemoViewController.m */; };
+		5050BB091CFD71C800ED7B46 /* MapDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB071CFD71C800ED7B46 /* MapDemoViewController.xib */; };
+		5050BB0C1CFD828800ED7B46 /* KKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5050BB0B1CFD828800ED7B46 /* KKAnnotation.m */; };
+		5050BB211CFD8EBB00ED7B46 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB101CFD8EBB00ED7B46 /* Icon-40.png */; };
+		5050BB221CFD8EBB00ED7B46 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB111CFD8EBB00ED7B46 /* Icon-40@2x.png */; };
+		5050BB231CFD8EBB00ED7B46 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB121CFD8EBB00ED7B46 /* Icon-40@3x.png */; };
+		5050BB241CFD8EBB00ED7B46 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB131CFD8EBB00ED7B46 /* Icon-60@2x.png */; };
+		5050BB251CFD8EBB00ED7B46 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB141CFD8EBB00ED7B46 /* Icon-60@3x.png */; };
+		5050BB261CFD8EBB00ED7B46 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB151CFD8EBB00ED7B46 /* Icon-72.png */; };
+		5050BB271CFD8EBB00ED7B46 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB161CFD8EBB00ED7B46 /* Icon-72@2x.png */; };
+		5050BB281CFD8EBB00ED7B46 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB171CFD8EBB00ED7B46 /* Icon-76.png */; };
+		5050BB291CFD8EBB00ED7B46 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB181CFD8EBB00ED7B46 /* Icon-76@2x.png */; };
+		5050BB2A1CFD8EBB00ED7B46 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB191CFD8EBB00ED7B46 /* Icon-83.5@2x.png */; };
+		5050BB2B1CFD8EBB00ED7B46 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB1A1CFD8EBB00ED7B46 /* Icon-Small-50.png */; };
+		5050BB2C1CFD8EBB00ED7B46 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB1B1CFD8EBB00ED7B46 /* Icon-Small-50@2x.png */; };
+		5050BB2D1CFD8EBB00ED7B46 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB1C1CFD8EBB00ED7B46 /* Icon-Small.png */; };
+		5050BB2E1CFD8EBB00ED7B46 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB1D1CFD8EBB00ED7B46 /* Icon-Small@2x.png */; };
+		5050BB2F1CFD8EBB00ED7B46 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB1E1CFD8EBB00ED7B46 /* Icon-Small@3x.png */; };
+		5050BB301CFD8EBB00ED7B46 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB1F1CFD8EBB00ED7B46 /* Icon.png */; };
+		5050BB311CFD8EBB00ED7B46 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5050BB201CFD8EBB00ED7B46 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,32 @@
 		5050BAEC1CFD656800ED7B46 /* MapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5050BAF01CFD656800ED7B46 /* MapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDemoUITests.m; sourceTree = "<group>"; };
 		5050BAF21CFD656800ED7B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5050BAFE1CFD65CA00ED7B46 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5050BB001CFD65D900ED7B46 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5050BB021CFD686A00ED7B46 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		5050BB031CFD686A00ED7B46 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		5050BB051CFD71C800ED7B46 /* MapDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDemoViewController.h; sourceTree = "<group>"; };
+		5050BB061CFD71C800ED7B46 /* MapDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDemoViewController.m; sourceTree = "<group>"; };
+		5050BB071CFD71C800ED7B46 /* MapDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapDemoViewController.xib; sourceTree = "<group>"; };
+		5050BB0A1CFD828800ED7B46 /* KKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAnnotation.h; sourceTree = "<group>"; };
+		5050BB0B1CFD828800ED7B46 /* KKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAnnotation.m; sourceTree = "<group>"; };
+		5050BB101CFD8EBB00ED7B46 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		5050BB111CFD8EBB00ED7B46 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		5050BB121CFD8EBB00ED7B46 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		5050BB131CFD8EBB00ED7B46 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		5050BB141CFD8EBB00ED7B46 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		5050BB151CFD8EBB00ED7B46 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5050BB161CFD8EBB00ED7B46 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		5050BB171CFD8EBB00ED7B46 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		5050BB181CFD8EBB00ED7B46 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		5050BB191CFD8EBB00ED7B46 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		5050BB1A1CFD8EBB00ED7B46 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		5050BB1B1CFD8EBB00ED7B46 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		5050BB1C1CFD8EBB00ED7B46 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		5050BB1D1CFD8EBB00ED7B46 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		5050BB1E1CFD8EBB00ED7B46 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		5050BB1F1CFD8EBB00ED7B46 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5050BB201CFD8EBB00ED7B46 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5050BB011CFD65D900ED7B46 /* CoreLocation.framework in Frameworks */,
+				5050BAFF1CFD65CA00ED7B46 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +132,8 @@
 		5050BABF1CFD656800ED7B46 = {
 			isa = PBXGroup;
 			children = (
+				5050BB001CFD65D900ED7B46 /* CoreLocation.framework */,
+				5050BAFE1CFD65CA00ED7B46 /* MapKit.framework */,
 				5050BACA1CFD656800ED7B46 /* MapDemo */,
 				5050BAE41CFD656800ED7B46 /* MapDemoTests */,
 				5050BAEF1CFD656800ED7B46 /* MapDemoUITests */,
@@ -101,10 +154,18 @@
 		5050BACA1CFD656800ED7B46 /* MapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5050BB0F1CFD8EBB00ED7B46 /* icon */,
 				5050BACE1CFD656800ED7B46 /* AppDelegate.h */,
 				5050BACF1CFD656800ED7B46 /* AppDelegate.m */,
 				5050BAD11CFD656800ED7B46 /* ViewController.h */,
 				5050BAD21CFD656800ED7B46 /* ViewController.m */,
+				5050BB0A1CFD828800ED7B46 /* KKAnnotation.h */,
+				5050BB0B1CFD828800ED7B46 /* KKAnnotation.m */,
+				5050BB051CFD71C800ED7B46 /* MapDemoViewController.h */,
+				5050BB061CFD71C800ED7B46 /* MapDemoViewController.m */,
+				5050BB071CFD71C800ED7B46 /* MapDemoViewController.xib */,
+				5050BB021CFD686A00ED7B46 /* BaseNavViewController.h */,
+				5050BB031CFD686A00ED7B46 /* BaseNavViewController.m */,
 				5050BAD41CFD656800ED7B46 /* Main.storyboard */,
 				5050BAD71CFD656800ED7B46 /* Assets.xcassets */,
 				5050BAD91CFD656800ED7B46 /* LaunchScreen.storyboard */,
@@ -138,6 +199,30 @@
 				5050BAF21CFD656800ED7B46 /* Info.plist */,
 			);
 			path = MapDemoUITests;
+			sourceTree = "<group>";
+		};
+		5050BB0F1CFD8EBB00ED7B46 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				5050BB101CFD8EBB00ED7B46 /* Icon-40.png */,
+				5050BB111CFD8EBB00ED7B46 /* Icon-40@2x.png */,
+				5050BB121CFD8EBB00ED7B46 /* Icon-40@3x.png */,
+				5050BB131CFD8EBB00ED7B46 /* Icon-60@2x.png */,
+				5050BB141CFD8EBB00ED7B46 /* Icon-60@3x.png */,
+				5050BB151CFD8EBB00ED7B46 /* Icon-72.png */,
+				5050BB161CFD8EBB00ED7B46 /* Icon-72@2x.png */,
+				5050BB171CFD8EBB00ED7B46 /* Icon-76.png */,
+				5050BB181CFD8EBB00ED7B46 /* Icon-76@2x.png */,
+				5050BB191CFD8EBB00ED7B46 /* Icon-83.5@2x.png */,
+				5050BB1A1CFD8EBB00ED7B46 /* Icon-Small-50.png */,
+				5050BB1B1CFD8EBB00ED7B46 /* Icon-Small-50@2x.png */,
+				5050BB1C1CFD8EBB00ED7B46 /* Icon-Small.png */,
+				5050BB1D1CFD8EBB00ED7B46 /* Icon-Small@2x.png */,
+				5050BB1E1CFD8EBB00ED7B46 /* Icon-Small@3x.png */,
+				5050BB1F1CFD8EBB00ED7B46 /* Icon.png */,
+				5050BB201CFD8EBB00ED7B46 /* Icon@2x.png */,
+			);
+			path = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +328,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5050BB091CFD71C800ED7B46 /* MapDemoViewController.xib in Resources */,
+				5050BB281CFD8EBB00ED7B46 /* Icon-76.png in Resources */,
+				5050BB2E1CFD8EBB00ED7B46 /* Icon-Small@2x.png in Resources */,
+				5050BB2C1CFD8EBB00ED7B46 /* Icon-Small-50@2x.png in Resources */,
 				5050BADB1CFD656800ED7B46 /* LaunchScreen.storyboard in Resources */,
+				5050BB311CFD8EBB00ED7B46 /* Icon@2x.png in Resources */,
+				5050BB271CFD8EBB00ED7B46 /* Icon-72@2x.png in Resources */,
+				5050BB291CFD8EBB00ED7B46 /* Icon-76@2x.png in Resources */,
+				5050BB2B1CFD8EBB00ED7B46 /* Icon-Small-50.png in Resources */,
+				5050BB211CFD8EBB00ED7B46 /* Icon-40.png in Resources */,
+				5050BB2D1CFD8EBB00ED7B46 /* Icon-Small.png in Resources */,
+				5050BB261CFD8EBB00ED7B46 /* Icon-72.png in Resources */,
 				5050BAD81CFD656800ED7B46 /* Assets.xcassets in Resources */,
+				5050BB301CFD8EBB00ED7B46 /* Icon.png in Resources */,
+				5050BB221CFD8EBB00ED7B46 /* Icon-40@2x.png in Resources */,
+				5050BB241CFD8EBB00ED7B46 /* Icon-60@2x.png in Resources */,
+				5050BB251CFD8EBB00ED7B46 /* Icon-60@3x.png in Resources */,
+				5050BB2A1CFD8EBB00ED7B46 /* Icon-83.5@2x.png in Resources */,
 				5050BAD61CFD656800ED7B46 /* Main.storyboard in Resources */,
+				5050BB231CFD8EBB00ED7B46 /* Icon-40@3x.png in Resources */,
+				5050BB2F1CFD8EBB00ED7B46 /* Icon-Small@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +374,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5050BAD31CFD656800ED7B46 /* ViewController.m in Sources */,
+				5050BB041CFD686A00ED7B46 /* BaseNavViewController.m in Sources */,
 				5050BAD01CFD656800ED7B46 /* AppDelegate.m in Sources */,
 				5050BACD1CFD656800ED7B46 /* main.m in Sources */,
+				5050BB0C1CFD828800ED7B46 /* KKAnnotation.m in Sources */,
+				5050BB081CFD71C800ED7B46 /* MapDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = doocmc.MapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = doocmc.MapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

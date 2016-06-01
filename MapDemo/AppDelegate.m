@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "MapDemoViewController.h"
+#import "BaseNavViewController.h"
+ @interface AppDelegate ()
 
 @end
 
@@ -17,6 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+  
+   
+    self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen]bounds].size.width, [[UIScreen mainScreen]bounds].size.height )];
+    
+    MapDemoViewController * vc = [[MapDemoViewController alloc]init];
+    
+    BaseNavViewController * baseNVC   = [[BaseNavViewController alloc]initWithRootViewController:vc];
+    
+
+    self.window.rootViewController =baseNVC;
+    self.window.backgroundColor =[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    
+    
     return YES;
 }
 

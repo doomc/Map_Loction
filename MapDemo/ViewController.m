@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "MapDemoViewController.h"
 @interface ViewController ()
+- (IBAction)openMapLocation:(id)sender;
 
 @end
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor cyanColor];
+ 
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +28,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openMapLocation:(id)sender {
+    NSLog(@"打开地图图");
+    MapDemoViewController * mapvc =[[MapDemoViewController alloc]init];
+    [self.navigationController pushViewController:mapvc animated:YES];
+    
+    
+}
 @end
